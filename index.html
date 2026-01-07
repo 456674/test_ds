@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>弹球游戏</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game">
+    <header class="game__header">
+      <div class="score">玩家：<span id="player-score">0</span></div>
+      <div class="score">电脑：<span id="cpu-score">0</span></div>
+    </header>
+    <canvas id="game-canvas" width="900" height="500" aria-label="弹球游戏画布" role="img"></canvas>
+    <section class="game__controls">
+      <p>操作：W/S 控制球拍，上下方向键亦可。</p>
+      <p>空格暂停，R 重新开始。</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
